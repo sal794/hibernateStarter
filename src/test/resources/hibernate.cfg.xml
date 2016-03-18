@@ -32,10 +32,12 @@
 
 		<property name="hbm2ddl.auto">create</property>
 		
-		<mapping class="edu.umsl.hibernateStarter.App"></mapping>
-		<mapping class="edu.umsl.hibernateStarter.Main"></mapping>
+		
+		
+		
 		<mapping class="edu.umsl.hibernateStarter.Student_Info"></mapping>
 		<mapping class="edu.umsl.hibernateStarter.StudentDetail"></mapping>
+		<mapping class="edu.umsl.hibernateStarter.UserInput"></mapping>
 	</session-factory>
 
 </hibernate-configuration>
